@@ -1,0 +1,74 @@
+*{
+padding: 0;
+margin: 0;
+}
+body, html{
+    height: 100%;
+}
+nav{
+position: absolute;
+z-index: 2;
+
+height: 100px;
+width: 100%;
+text-align: center;
+line-height: 140px;
+}
+nav a{
+    color: #FFF;
+    font-family: 'Trispace', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 12px 12px;
+}
+nav a:hover{
+    background-color: black;
+}
+.gorsel{
+    height: 100%;
+    background-color: lightblue;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.bant{
+    height: 50%;
+    background-color: lightgreen;
+}
+#gor1{
+    background-image: url(image/gor1.jpg);
+}
+#gor2{
+    background-image: url(image/gor2.jpg);
+}
+#gor3{
+    background-image: url(image/gor3.jpg);
+}
+.anasayfa{
+    position: absolute;
+    float: left;
+}
+.anaYazi{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+
+}
+.anaYazi h1{
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+}
+.anaFiltre{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.34;
+    z-index: 0;
+
+}
